@@ -209,6 +209,10 @@ section h2 {
   font-weight: bolder;
 }
 
+nav a, nav a:hover, nav a:focus, nav a:active {
+  text-decoration: none;
+}
+
 /* TODO: Add styles to display and hide the resource links */
 
 @media screen and (max-width: 768px) {
