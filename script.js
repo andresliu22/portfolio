@@ -29,25 +29,29 @@ function getRepos() {
 function displayFeaturedRepos(repos) {
     for (let i = 0 ; i < repos.length ; i++) {
         if (repos[i].stargazers_count > 0) {
-            let a = $('<a target="_blank">');
-            a.attr("href",`https://andresliu22.github.io/${repos[i].name}`);
-            
             let projectDiv = $('<div class="project">');
             let header = $('<header>');
             let repoName = repos[i].name.replaceAll("-", " ");
-            header.text(repoName[0].toUpperCase() + repoName.slice(1));
+
+            let aRepo = $('<a target="_blank">');
+            aRepo.attr("href", repos[i].html_url);
+            aRepo.text(repoName[0].toUpperCase() + repoName.slice(1));
             
+            let aLive = $('<a target="_blank">');
+            aLive.attr("href",`https://andresliu22.github.io/${repos[i].name}`);
+
             let imageDiv = $('<div class="image-div">');
             let img = $('<img>');
             img.attr("src", `./assets/images/${repos[i].name}-img.png`);
             img.attr("alt", `${repos[i].name}`);
 
-            a.append(projectDiv);
             projectDiv.append(header);
-            projectDiv.append(imageDiv);
+            header.append(aRepo);
+            projectDiv.append(aLive);
+            aLive.append(imageDiv);
             imageDiv.append(img);
 
-            workRepos.append(a);
+            workRepos.append(projectDiv);
         }
     }
 }
