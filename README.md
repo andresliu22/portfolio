@@ -10,21 +10,18 @@
 
 ## My Work
 
-* [Code Refactor](https://github.com/andresliu22/code-refactor)
-* [Responsive Grid](https://github.com/andresliu22/responsive-grid)
-* [Initiative](https://github.com/andresliu22/initiativeApp)
-* [UM](https://github.com/andresliu22/umApp)
-* [News](https://github.com/andresliu22/newsApp)
-* [Covid-tracker](https://github.com/andresliu22/covid-tracker)
-* [Tasks](https://github.com/andresliu22/tasksApp)
-* [Reminder](https://github.com/andresliu22/reminderApp)
-* [BMI Calculator](https://github.com/andresliu22/bmiCalculator)
+* [Rank-A-Drank](https://andresliu22.github.io/rank-a-drank/)
+* [Weather Dashboard](https://andresliu22.github.io/weather-dashboard/)
+* [Day Planner](https://andresliu22.github.io/day-planner/)
+* [Code Quiz](https://andresliu22.github.io/code-quiz/)
+* [Password Generator](https://andresliu22.github.io/password-generator/)
 
 ## Skills
 
 * HTML
 * CSS
 * Javascript
+* JQuery
 * Angular
 * React
 * NodeJS
@@ -37,10 +34,11 @@
 * [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
 * [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
 * [Javascript](https://developer.mozilla.org/en-US/docs/Web/javascript)
+* [JQuery](https://jquery.com/)
 
 ## Deployed Link
 
-* [See Live Portfolio](https://andresliu22.github.io/portfolio/)
+* [See Live Portfolio](https://andresliu22.github.io/updated-portfolio/)
 
 ## Author
 
