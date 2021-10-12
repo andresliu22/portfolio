@@ -52,3 +52,16 @@ function displayFeaturedRepos(repos) {
     }
 }
 
+function displaySkills() {
+    let skills = ["html", "angular", "css", "react", "javascript", "xcode", "swift", "sql"];
+
+    skills.forEach(skill => {
+        let skillDiv = $('<div class="skill">');
+        let img = $('<img>');
+        img.attr("src", `./assets/images/${skill}-logo.png`);
+        img.attr("alt", `${skill}-logo`);
+
+        workSkills.append(skillDiv);
+        skillDiv.append(img);
+    });
+}
