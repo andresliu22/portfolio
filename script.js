@@ -42,7 +42,7 @@ function displayFeaturedRepos(repos) {
 
             let imageDiv = $('<div class="image-div">');
             let img = $('<img>');
-            img.attr("src", `./assets/images/${repos[i].name}-img.png`);
+            img.attr("src", `https://raw.githubusercontent.com/andresliu22/${repos[i].name}/main/assets/images/site-img.PNG`);
             img.attr("alt", `${repos[i].name}`);
 
             projectDiv.append(header);
